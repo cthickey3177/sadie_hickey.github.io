@@ -1,144 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sadie’s Portfolio</title>
-    <style>
-        /* Reset some default styles */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sadie Hickey – Timeline</title>
+<style>
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #e0e0e0; /* slightly darker background */
+        color: #333;
+        margin: 0;
+        line-height: 1.6;
+    }
 
-        body {
-            background-color: #f8f4f0;
-            color: #333;
-            line-height: 1.6;
-        }
+    header {
+        background-color: #d6d6d6; /* slightly darker than previous header */
+        text-align: center;
+        padding: 3rem 1rem;
+    }
 
-        header {
-            background-color: #ffb6b9;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        color: #555;
+    }
 
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
+    header p {
+        font-size: 1.2rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0.5rem auto 0 auto;
+    }
 
-        header p {
-            font-size: 1.2rem;
-        }
+    section {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
 
-        nav {
-            background-color: #f67280;
-            text-align: center;
-            padding: 1rem 0;
-        }
+    h2 {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 0.5rem;
+        color: #444;
+        margin-bottom: 1rem;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-weight: bold;
-        }
+    .timeline-photo {
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        object-fit: cover;
+        filter: grayscale(20%);
+        transition: filter 0.2s ease;
+    }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+    .timeline-photo:hover {
+        filter: grayscale(0%);
+    }
 
-        section {
-            padding: 2rem 1rem;
-            max-width: 1000px;
-            margin: auto;
-        }
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: #d6d6d6;
+        color: #555;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+    }
 
-        .bio {
-            text-align: center;
-        }
-
-        .bio img {
-            width: 250px;
-            border-radius: 50%;
-            margin-top: 1rem;
-            border: 4px solid #f67280;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .gallery img {
-            width: 100%;
-            border-radius: 10px;
-            transition: transform 0.3s;
-        }
-
-        .gallery img:hover {
-            transform: scale(1.05);
-        }
-
-        footer {
-            background-color: #ffb6b9;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-
-        footer a {
-            color: white;
-            text-decoration: underline;
-        }
-    </style>
+    a {
+        color: #555;
+        text-decoration: underline;
+    }
+</style>
 </head>
 <body>
 
 <header>
-    <h1>Sadie</h1>
-    <p>Life, Love, and Adventure of My Favorite Pup</p>
+    <h1>Sadie Hickey</h1>
+    <p>Sadie was a gentle and adventurous soul who brought joy, love, and companionship into the lives of everyone she met. This is a space to celebrate her life and memories.</p>
 </header>
 
-<nav>
-    <a href="#bio">About Sadie</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-</nav>
+<section>
+    <h2>Timeline</h2>
 
-<section id="bio" class="bio">
-    <h2>About Sadie</h2>
-    <p>Sadie is the sweetest and most adventurous dog. She loves long walks, belly rubs, and making everyone smile.</p>
-    <img src="https://place-puppy.com/250x250" alt="Sadie">
-</section>
+    <!-- Photos stacked vertically -->
+    <img src="https://place-puppy.com/300x300" class="timeline-photo" alt="Sadie 1">
+    <img src="https://place-puppy.com/301x301" class="timeline-photo" alt="Sadie 2">
+    <img src="https://place-puppy.com/302x302" class="timeline-photo" alt="Sadie 3">
+    <img src="https://place-puppy.com/303x303" class="timeline-photo" alt="Sadie 4">
+    <img src="https://place-puppy.com/304x304" class="timeline-photo" alt="Sadie 5">
+    <img src="https://place-puppy.com/305x305" class="timeline-photo" alt="Sadie 6">
+    <img src="https://place-puppy.com/306x306" class="timeline-photo" alt="Sadie 7">
+    <img src="https://place-puppy.com/307x307" class="timeline-photo" alt="Sadie 8">
+    <img src="https://place-puppy.com/308x308" class="timeline-photo" alt="Sadie 9">
 
-<section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-        <img src="https://place-puppy.com/300x300" alt="Sadie 1">
-        <img src="https://place-puppy.com/301x301" alt="Sadie 2">
-        <img src="https://place-puppy.com/302x302" alt="Sadie 3">
-        <img src="https://place-puppy.com/303x303" alt="Sadie 4">
-        <img src="https://place-puppy.com/304x304" alt="Sadie 5">
-        <img src="https://place-puppy.com/305x305" alt="Sadie 6">
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>If you want to reach out or share some love for Sadie, email us at <a href="mailto:sadie@example.com">sadie@example.com</a>.</p>
 </section>
 
 <footer>
-    <p>© 2025 Sadie’s Portfolio. All rights reserved.</p>
+    <p>© 2025 Sadie Hickey. All rights reserved.</p>
+    <p>Contact: <a href="mailto:sadie@example.com">sadie@example.com</a></p>
 </footer>
 
 </body>
 </html>
+
